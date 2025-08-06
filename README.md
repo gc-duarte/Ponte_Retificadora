@@ -1,5 +1,5 @@
 # Projeto de Conversor CA-CC
-![logo]()
+![logo](CA_CC.gif)
 
 ### Tópicos
 
@@ -7,7 +7,7 @@
 - [Etapas do Processo](#etapas-do-processo)
 - [Transformadores](#transformadores)
 - [Diodos e o Retificador de Ponte](#diodos-e-o-retificador-de-ponte)
-- [Filtos](#filtos)
+- [Filtros](#filtros)
 - [Conclusão](#conclusão)
 
 ## Descrição do Projeto
@@ -22,12 +22,12 @@ Os dispositivos elétricos e eletrônicos (computadores, geladeiras, etc.), os q
 
 ✔️ `Etapa 2:` Fazer o processo de retificação com os diodos.
 
-✔️`Etapa 3:` Usar filtros para diminuir as ondulações restantes.
+✔️ `Etapa 3:` Usar filtros para diminuir as ondulações restantes.
 
 ## Transformadores
 
 <p alinhar="justificar">
-
+É basicamente constituído de indutores e baseia-se no processo de indutância mútua, que é basicamente a geração de um campo elétrico em um indutor secundário, o que promove corrente elétrica, devido ao campo magnético variável produzido por una corrente em regime AC que passa pelo indutor primário, o que é consequência da Lei de Àmpere.
 </p>
 
 ## Diodos e o Retificador de Ponte
@@ -36,10 +36,10 @@ Os dispositivos elétricos e eletrônicos (computadores, geladeiras, etc.), os q
 
 </p>
 
-## Filtos
+## Filtros
 
 <p alinhar="justificar">
-
+Usando o Teorema da Superposição Linear, o sinal retificado pode ser decomposto nas partes apresentadas, e o filtro permitiria passar apenas a componente CC, que corresponde ao sinal de frequência nula, para uma carga resistiva, pois o indutor iria diminuir a amplitude da tensão que passa por ele até alcançar o valor médio, e o capacitor iria eliminar as componentes de alta frequência (idealmente toda a parte CA), deixando apenas a de frequência nula (parte CC)
 </p>
 
 ## Conclusão
